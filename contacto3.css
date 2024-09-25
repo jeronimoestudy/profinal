@@ -114,8 +114,9 @@ ul, ol {
     background-color: #000000;
     color: #fffcfc;
     text-decoration: none;
-    padding: 12px 22px;
+    padding: 12px 6px;
     display: block;
+    font-size: 22px;
 }
 
 .nav li a:hover {

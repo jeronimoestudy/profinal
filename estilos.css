@@ -1,57 +1,62 @@
-/* Temas del segundo período*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
 
-.texto{
-   
+
+.texto {
+
     font-size: 25px;
     padding-top: 10px;
-    text-align: justify;
+    text-align: center;
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.principal{
-   display: flex;
-     
+
+
+
+.principal {
+    display: flex;
+
 }
-body{
+
+body {
     background-color: rgb(0, 0, 0);
-   color: #000000;
+    color: #000000;
 }
-.titulo{
+
+.titulo {
     text-align: center;
     font-size: 53px;
     padding-top: 31px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(254, 254, 255);
+    color: rgb(3, 3, 180);
 }
 
-.img1{
-    height: 352px;
+.img1 {
+    height: 400px;
     width: 396px;
     background-image: url("img/circuito_simple.png");
     background-repeat: no-repeat;
-    float: left;
+    margin-left: 822px;
 }
-.resumen{
+
+.semititulo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(218, 12, 12);
+    text-align: center;
 }
-.semititulo{
+
+.mango {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 255, 255);
+    color: #7459d5;
+    text-align: center;
 }
-.semitexto{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 255, 255);
-}
-.fuentetexto{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 255, 255);
-}
-.textofuente{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(255, 255, 255);
-}
-.img2{
+
+.img2 {
     height: 100%;
     width: 100%;
     background-image: url("img/gran-colombia.jpg");
@@ -59,15 +64,17 @@ body{
     float: left;
     background-position: center;
 }
-.img4{
-height: 300px;
-width: 100%;
-background-repeat: no-repeat;
-background-image: url("img/Inglés\ de\ josué.jpg");
-background-position: center;
-float: left;
+
+.img4 {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("img/Inglés\ de\ josué.jpg");
+    background-position: center;
+    float: left;
 }
-.img5{
+
+.img5 {
     width: 100%;
     height: 278px;
     background-repeat: no-repeat;
@@ -75,7 +82,8 @@ float: left;
     background-position: center;
     float: left;
 }
-.ing1{
+
+.ing1 {
     width: 100%;
     height: 626px;
     background-repeat: no-repeat;
@@ -83,7 +91,8 @@ float: left;
     background-position: center;
     float: left;
 }
-.ing2{
+
+.ing2 {
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;
@@ -91,114 +100,139 @@ float: left;
     background-position: center;
     float: left;
 }
-.ing3{
+
+.ing3 {
     width: 100%;
-    height:698px ;
-background-repeat: no-repeat;
-background-image: url("img/sentadilla.webp");
-background-position: center;
-float: left;
+    height: 698px;
+    background-repeat: no-repeat;
+    background-image: url("img/sentadilla.webp");
+    background-position: center;
+    float: left;
 }
-.ing4{
+
+.ing4 {
     width: 100%;
-    height: 338px; ;
-background-repeat: no-repeat;
-background-image: url("img/libro.avif");
-background-position: center;
-float: left;
+    height: 338px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/libro.avif");
+    background-position: center;
+    float: left;
 }
-.ing5{
+
+.ing5 {
     width: 100%;
-    height: 626px; ;
-background-repeat: no-repeat;
-background-image: url("img/medico.avif");
-background-position: center;
-float: left;
+    height: 626px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/medico.avif");
+    background-position: center;
+    float: left;
 }
-.ing6{
+
+.ing6 {
     width: 100%;
-    height: 867px; ;
-background-repeat: no-repeat;
-background-image: url("img/arboleda.jpg");
-background-position: center;
-float: left;
+    height: 867px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/arboleda.jpg");
+    background-position: center;
+    float: left;
 }
-.ing7{
+
+.ing7 {
     width: 100%;
-    height:626px ;
-background-repeat: no-repeat;
-background-image: url("img/autocuidado.avif");
-background-position: center;
-float: left;
+    height: 626px;
+    background-repeat: no-repeat;
+    background-image: url("img/autocuidado.avif");
+    background-position: center;
+    float: left;
 }
-.ing8{
+
+.ing8 {
     width: 100%;
-    height: 500px; ;
-background-repeat: no-repeat;
-background-image: url("img/Badminton-Explicacion-para-ninos.jpg");
-background-position: center;
-float: left;
+    height: 500px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/Badminton-Explicacion-para-ninos.jpg");
+    background-position: center;
+    float: left;
 }
-.ing9{
+
+.ing9 {
     width: 100%;
     height: 490px;
-background-repeat: no-repeat;
-background-image: url("img/centro-comercial-mas-grande-de-colombia.jpg");
-background-position: center;
-float: left;
+    background-repeat: no-repeat;
+    background-image: url("img/centro-comercial-mas-grande-de-colombia.jpg");
+    background-position: center;
+    float: left;
 }
-.ing10{
+
+.ing10 {
     width: 100%;
-    height: 400px; ;
-background-repeat: no-repeat;
-background-image: url("img/cepillo.jpg");
-background-position: center;
-float: left;
+    height: 400px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/cepillo.jpg");
+    background-position: center;
+    float: left;
 }
-.ing11{
+
+.ing11 {
     width: 100%;
-    height: 338px; ;
-background-repeat: no-repeat;
-background-image: url("img/ducha.avif");
-background-position: center;
-float: left;
+    height: 338px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/ducha.avif");
+    background-position: center;
+    float: left;
 }
-.ing12{
+
+.ing12 {
     width: 1300px;
-    height: 612px; ;
-background-repeat: no-repeat;
-background-image: url("img/nofu.jpg");
-background-position:center ;
-float: left;
+    height: 612px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/nofu.jpg");
+    background-position: center;
+    float: left;
 }
-.mariposa{
+
+.mariposa {
     color: rgb(0, 247, 255);
 }
-.libelula{
+
+.libelula {
     color: rgb(47, 0, 255);
 }
-.jirafa{
+
+.jirafa {
     color: rgb(255, 140, 0);
 }
-.lombris{
+
+.lombris {
     color: rgb(255, 0, 162);
 }
-.canserbero{
+
+.canserbero {
     color: rgb(221, 255, 0);
 }
-.img3{
+
+.img3 {
     height: 682px;
     width: 664px;
     background-image: url("img/segundo.jpg");
     float: left;
     background-repeat: no-repeat;
 }
-.macho{
+
+.macho {
     height: 6px;
     color: #7459d5;
-    
+
 }
-.con1{
+
+.con1 {
     width: 1300px;
     height: 1599px;
     background-repeat: no-repeat;
@@ -206,7 +240,8 @@ float: left;
     background-position: center;
     float: left;
 }
-.con2{
+
+.con2 {
     width: 100%;
     height: 1280px;
     background-repeat: no-repeat;
@@ -214,7 +249,8 @@ float: left;
     background-position: center;
     float: left;
 }
-.con3{
+
+.con3 {
     width: 100%;
     height: 1600px;
     background-repeat: no-repeat;
@@ -222,7 +258,8 @@ float: left;
     background-position: center;
     float: left;
 }
-.mpp{
+
+.mpp {
     width: 100%;
     height: 578px;
     background-repeat: no-repeat;

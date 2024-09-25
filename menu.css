@@ -24,8 +24,9 @@ ul, ol {
     background-color: #000000;
     color: #ffffff;
     text-decoration: none;
-    padding: 10px 12px;
+    padding: 10px 13px;
     display: block;
+    font-size: 26px;
 }
 
 .nav li a:hover {
