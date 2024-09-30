@@ -5,57 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto integrado</title>
+    <script src="https://kit.fontawesome.com/a5bfd48384.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="hambur.css">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="menu.css">
 </head>
 
 <body>
     <div class="principal">
 
         <!--Menu desplegable--->
-        <div id="menu">
-            <ul class="nav">
-                <li><a href="index.html">comienzo</a></li>
+        <nav>
+            <div class="icono-menu">
+                &nbsp;
+                &nbsp;
+                <i class="fa-solid fa-gamepad" id="icono-menu"></i>
+                &nbsp;
+                &nbsp;
+            </div>
+        
+            <div class="cont-menu active" id="menu">
+                <ul>
+
+                    <li><a href="index.html">INICIO</a></li>
+
+                    <li><a href="">tecnologia</a>
+                        <ul desplegable>
+                            <li><a href="Periodo 1.html">primer periodo</a></li>
+                            <li><a href="Tecnología.html">segundo periodo</a></li>
+                            <li><a href="tec3.html">tercer periodo</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="">sociales</a>
+                        <ul>
+                            <li><a href="Periodo 1.html">primer periodo</a></li>
+                            <li><a href="Sociales.html">segundo periodo</a></li>
+                            <li><a href="soc3.html">tercer periodo</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="">ingles</a>
+                        <ul>
+                            <li><a href="Periodo 1.html">primer periodo</a></li>
+                            <li><a href="Inglés.html">segundo periodo</a></li>
+                            <li><a href="ing3.html">tercer periodo</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="contacto3.html">contacto</a></li>
+
+                </ul>
+            </div>
+            
+        </nav>
+       
 
 
 
-                <li>
-                    <a href="tec3.html">Tecnología e informática</a>
-                    <ul>
-                        <li><a href="Periodo 1.html">Período uno</a></li>
-                        <li><a href="Tecnología.html">Período dos</a></li>
-                        <li><a href="tec3.html">Período tres</a></li>
-
-
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="soc3.html">Sociales</a>
-                    <ul>
-                        <li><a href="Periodo 1.html">Período uno</a></li>
-                        <li><a href="Sociales.html">Periodo dos</a></li>
-                        <li><a href="soc3.html">Período tres</a></li>
-
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="ing3.html">Inglés</a>
-                    <ul>
-                        <li><a href="Periodo 1.html">Período uno</a></li>
-                        <li><a href="Inglés.html">Periodo dos</a></li>
-                        <li><a href="ing3.html">Período tres</a></li>
-
-                    </ul>
-                </li>
-
-
-
-
-                <li><a href="contacto3.html">Contacto</a></li>
-            </ul>
-        </div>
+               
 
         <!--Menu desplegable--->
 
@@ -67,7 +76,7 @@
             las clases de inglés, sociales y la misma tecnología, sé que aquí aprenderemos mucho.
 
         </div>
-
+        <script src="app.js"></script>
 
     </div>
 </body>
