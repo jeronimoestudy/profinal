@@ -4,6 +4,7 @@
 }
 
 #menu{
+    list-style-type: none;
     margin: auto;
     width: 800px;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,54 +12,57 @@
    left:20%;
      
 }
-
-ul, ol {
-    list-style: none;
+body {
+    font-family: Arial, sans-serif;
 }
 
-.nav > li {
-    float: left;
+nav {
+    background-color: #333;
 }
 
-.nav li a {
-    background-color: #000000;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px 13px;
-    display: block;
-    font-size: 26px;
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.nav li a:hover {
-    background-color: #ff0000;
-}
-
-.nav li ul {
-    display: none;
-    position: absolute;
-    min-width: 140px;
-}
-
-.nav li:hover > ul {
-    display: block;
-}
-
-.nav li ul li {
+.menu > li {
     position: relative;
+    display: inline-block;
 }
 
-.nav li ul li ul {
-    right: -140px;
-    top: 0;
+.menu > li > a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
 }
 
-.nav li ul {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+.menu > li:hover > a {
+    background-color: #575757;
 }
 
-.nav li:hover > ul {
-    visibility: visible;
-    opacity: 1;
+.submenu {
+    display: none; /* Ocultar el submenú por defecto */
+    position: absolute;
+    background-color: #333;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
 }
+
+.menu > li:hover .submenu {
+    display: block; /* Mostrar el submenú al pasar el mouse */
+}
+
+.submenu li a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.submenu li a:hover {
+    background-color: #575757;
+}
+

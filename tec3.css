@@ -135,7 +135,7 @@ p {
 }
 
 .content{
-    height: 50vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -243,4 +243,21 @@ p {
 .contact{
     padding: 50px 0;
     background: #171717;
+}
+
+.img-1{
+    width: 730px;
+    background-position: right;
+}
+
+
+.tec-2{
+    height: 145px;
+    width: 719px;
+    background-position: left;
+}
+.excel-video{
+    height: 300px;
+    width: 719px; 
+    background-position: center;
 }
