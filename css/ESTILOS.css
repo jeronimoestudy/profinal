@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+.texto {
+
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.principal {
+    display: flex;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: #000000;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 53px;
+    padding-top: 31px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(3, 3, 180);
+}
+
+.img1 {
+    height: 400px;
+    width: 396px;
+    background-image: url("img/circuito_simple.png");
+    background-repeat: no-repeat;
+    margin-left: 560px;
+}
+
+.semititulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(218, 12, 12);
+    text-align: center;
+}
+
+.mango {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #7459d5;
+    text-align: center;
+}
+
+.img2 {
+    height: 100%;
+    width: 100%;
+    background-image: url("img/gran-colombia.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    background-position: center;
+}
+
+.img4 {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("img/Inglés\ de\ josué.jpg");
+    background-position: center;
+    float: left;
+}
+
+.img5 {
+    width: 100%;
+    height: 278px;
+    background-repeat: no-repeat;
+    background-image: url("img/Más\ inglés\ de\ Josué.png");
+    background-position: center;
+    float: left;
+}
+
+.ing1 {
+    width: 100%;
+    height: 626px;
+    background-repeat: no-repeat;
+    background-image: url("img/persona-durmiendo-cama-estilo-flat_23-2148147396.avif");
+    background-position: center;
+    float: left;
+}
+
+.ing2 {
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-image: url("img/ensalada-de-lechuga-y-tomate-foto-cerca.jpg");
+    background-position: center;
+    float: left;
+}
+
+.ing3 {
+    width: 100%;
+    height: 698px;
+    background-repeat: no-repeat;
+    background-image: url("img/sentadilla.webp");
+    background-position: center;
+    float: left;
+}
+
+.ing4 {
+    width: 100%;
+    height: 338px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/libro.avif");
+    background-position: center;
+    float: left;
+}
+
+.ing5 {
+    width: 100%;
+    height: 626px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/medico.avif");
+    background-position: center;
+    float: left;
+}
+
+.ing6 {
+    width: 100%;
+    height: 867px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/arboleda.jpg");
+    background-position: center;
+    float: left;
+}
+
+.ing7 {
+    width: 100%;
+    height: 626px;
+    background-repeat: no-repeat;
+    background-image: url("img/autocuidado.avif");
+    background-position: center;
+    float: left;
+}
+
+.ing8 {
+    width: 100%;
+    height: 500px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/Badminton-Explicacion-para-ninos.jpg");
+    background-position: center;
+    float: left;
+}
+
+.ing9 {
+    width: 100%;
+    height: 490px;
+    background-repeat: no-repeat;
+    background-image: url("img/centro-comercial-mas-grande-de-colombia.jpg");
+    background-position: center;
+    float: left;
+}
+
+.ing10 {
+    width: 100%;
+    height: 400px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/cepillo.jpg");
+    background-position: center;
+    float: left;
+}
+
+.ing11 {
+    width: 100%;
+    height: 338px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/ducha.avif");
+    background-position: center;
+    float: left;
+}
+
+.ing12 {
+    width: 1300px;
+    height: 612px;
+    ;
+    background-repeat: no-repeat;
+    background-image: url("img/nofu.jpg");
+    background-position: center;
+    float: left;
+}
+
+.mariposa {
+    color: rgb(0, 247, 255);
+}
+
+.libelula {
+    color: rgb(47, 0, 255);
+}
+
+.jirafa {
+    color: rgb(255, 140, 0);
+}
+
+.lombris {
+    color: rgb(255, 0, 162);
+}
+
+.canserbero {
+    color: rgb(221, 255, 0);
+}
+
+.img3 {
+    height: 682px;
+    width: 664px;
+    background-image: url("img/segundo.jpg");
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.macho {
+    height: 6px;
+    color: #7459d5;
+
+}
+
+.con1 {
+    width: 1300px;
+    height: 1599px;
+    background-repeat: no-repeat;
+    background-image: url("img/josue.jpeg");
+    background-position: center;
+    float: left;
+}
+
+.con2 {
+    width: 100%;
+    height: 1280px;
+    background-repeat: no-repeat;
+    background-image: url("img/WhatsApp\ Image\ 2024-08-04\ at\ 5.50.31\ PM.jpeg");
+    background-position: center;
+    float: left;
+}
+
+.con3 {
+    width: 100%;
+    height: 1600px;
+    background-repeat: no-repeat;
+    background-image: url("img/WhatsApp\ Image\ 2024-08-04\ at\ 5.50.37\ PM.jpeg");
+    background-position: center;
+    float: left;
+}
+
+.mpp {
+    width: 100%;
+    height: 578px;
+    background-repeat: no-repeat;
+    background-image: url("img/mapam.jpg");
+    background-position: center;
+    float: left;
+}

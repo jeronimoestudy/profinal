@@ -1,0 +1,67 @@
+.conenedor{
+width: 100%;
+height: 120000px;
+display: flex;
+flex-direction: column;
+}
+
+.encabezado{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(38, 16, 232);
+    font-size: 60px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulotec{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(8, 165, 44);
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.tec{
+    width: 100%;
+    background-color: rgb(25, 163, 12);
+    font-size: 32px;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tituloing{
+    width: 100%;
+    height: 70px;
+background-color: blue;
+font-size: 50px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ing{
+    width: 100%;
+    background-color: rgb(15, 6, 252);
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulosoc{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(2, 222, 251);
+    font-size: 50px;
+    text-align: center;
+    font-family: unset;
+}
+
+.soc{
+    width: 100%;
+    height: 650px;
+    background-color: cyan;
+    font-size: 30px;
+    text-align: left;
+    font-family: initial;
+}

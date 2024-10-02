@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+
+
+/* Estilos para el icono del menu */
+.icono-menu {
+    padding: 0px 258px;
+    position: relative;
+    z-index: 64;
+    text-align: center;
+    font-size: 41px;
+    color: rgb(216, 21, 21);
+    transition: all 0.3s ease;
+
+}
+.icono-menu.white{
+    color: white;
+    transition: all 0.3s ease;
+}
+
+
+/* Estilos para el contenedor del menu*/
+.cont-menu{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 0px 5px 2px rgb(255, 255, 255);
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+/* Estilos por agregar en javaScript */
+.active{
+    transform: translate(-600px);
+}
+
+.opacity{
+    background-color: rgba(164, 0, 0, 0.5);
+    transition: all .5s ease;
+}
+
+/* Estilos para el listado del menu */
+.cont-menu ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.cont-menu ul li{
+    color: rgb(206, 55, 55);
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 39px 74px;
+    background-color: rgb(0, 0, 0);
+}
+
+.cont-menu ul li:hover{
+    background-color: rgb(228,228,288);
+    color: rgb(42, 42, 42);
+}
+
+.cont-menu li a{
+    color: #9e1616;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 22px;
+}
+
+.cont-menu li{
+    float: left;
+}
+
+.cont-menu li ul {
+    display: none;
+    position: absolute;
+    font-size: 22px;
+}
+
+.cont-menu li:hover ul {
+    display: block;
+    position: fixed;
+}
