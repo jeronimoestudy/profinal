@@ -7,7 +7,6 @@
 }
 
 body {
-    font-family: sans-serif;
     background-color: #161d25;
 }
 
@@ -21,14 +20,13 @@ body {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     align-items: center;
     padding: 200px 0;
     position: relative;
 }
 
 img {
-    max-width: 16%;
+    max-width: 150%;
 }
 
 .back-video {
@@ -40,52 +38,6 @@ img {
     height: 100%;
 }
 
-.menu {
-    position: absolute;
-    top: 10px;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
-}
-
-.logo {
-    color: #e0003e;
-    font-size: 25px;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-
-.menu .navbar ul li {
-    position: relative;
-    float: left;
-}
-
-.menu .navbar ul li a {
-    font-size: 18px;
-    color: #ffffff;
-    display: block;
-    font-weight: 600;
-}
-
-.menu .navbar ul li a:hover {
-    color: #e0003e;
-}
-
-#menu {
-    display: none;
-}
-
-.menu-icono {
-    width: 25px;
-}
-
-.menu label {
-    cursor: pointer;
-    display: none;
-}
 
 .header-txt {
     width: 100%;
@@ -111,24 +63,11 @@ img {
     margin-bottom: 25px;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-}
 
-.btn-1 {
-    display: inline-block;
-    background-color: #e0003e;
-    padding: 13px 25px;
-    width: 150px;
-    margin: 0 10px;
-    border-radius: 25px;
-    color: #ffffff;
-}
 
-.btn-1:hover {
-    background-color: #e0003e;
-}
+
+
+
 
 .services {
     padding: 100px 0;
@@ -154,7 +93,7 @@ img {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     color: #d5d5d5;
 }
 
