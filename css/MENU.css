@@ -15,7 +15,7 @@ ul, ol{
 
 /* Estilos para el icono del menu */
 .icono-menu {
-    padding: -1px 258px;
+    padding: 0px 258px;
     position: relative;
     z-index: 64;
     text-align: center;
